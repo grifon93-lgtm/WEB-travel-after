@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+		<meta charset="UTF-8">
+		<title>OrangeJam｜アジアの旅プレゼント</title>
+		<meta name="keywords" content="旅行,プレゼント,アジア">
+		<meta name="description" content="台湾、香港、バリ。美味しいアジアの旅をプレゼント！">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="favicon.ico">
+
+		<link href="css/reset.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/menu_drop.css" rel="stylesheet">
+		<link href="slide/jquery.bxslider.css" rel="stylesheet">
+
+</head>
+<body>
+	<header>
+	<div class="title_box">
+		<div class="headline_box">
+			<h1>OrangeJam Travel</h1>
+			<h2>世界の旅</h2>
+		</div><!--headline_box-->
+		<h3><img src="images/orange.png" alt="logo"></h3>
+	</div><!--title_box>-->
+	<nav>
+		<ul>
+		<li><a href="index.html">Top</a></li>
+		<li><a href="#">アジアンSpot</a></li>
+		<li><a href="#">ハワイアンSpot</a></li>
+		<li><a href="entry.html">プレゼント応募フォーム</a></li>
+		<li><a href="#">会社案内</a></li>
+		<!--li><a href="http://www.c-aca.com" target="_blank">クリアカ・トラベル</a></li-->
+		</ul>
+		<span></span>
+	</nav>
+	<div class="navBg"></div><!--novBg-->
+	<div class="trigger">
+	<p class="trigger_btn"><img src="images/orange.png" alt="logo"></p>
+				<span></span>
+	</div><!--trigger-->
+
+	</header>
+
+<div class="content_box">
+<section class="section_01">
+	<div class="copy">
+		<h2>OrangeJamで世界の旅へ</h2>
+		<p>新しくなったOrangeJamは<br>快適で理想の旅行プランを皆様に提供します</p>
+	</div><!--copy-->
+	<div class="bx-wrapper">
+		<ul class="bxslider">
+			<li><img src="slideImage/angkor_wat.jpg" alt="アンコールワット"></li>
+			<li><img src="slideImage/bali.jpg" alt="バリ島"></li>
+			<li><img src="slideImage/bangkok02.jpg" alt="バンコク"></li>
+			<li><img src="slideImage/thai.jpg" alt="タイ"></li>
+			<li><img src="slideImage/666350_s.jpg" alt="ハワイ"></li>
+		</ul>
+	</div><!--bx-wrapper-->
+</section><!--section_01-->
+
+<section class="section_02">
+		<div class="asia">
+			<h2>Asia</h2>
+			<ul class="asia-slide">
+				<li><img src="section_slide/asia/bali.jpg" alt="バリ島"></li>
+				<li><img src="section_slide/asia/bangkok02.jpg" alt="バンコク"></li>
+				<li><img src="section_slide/asia/blue_mosque.jpg" alt="モスク"></li>
+				<li><img src="section_slide/asia/hoian.jpg" alt="ホイアン"></li>
+			</ul>
+			<div class="link">
+				<p><a href="#">アジア旅行の詳細はこちら<br>&rarr;</a></p>
+			</div>
+		</div><!--asia-->
+		<div class="hawaii">
+			<h2>Hawaii</h2>
+			<ul class="hawaii-slide">
+				<li><img src="section_slide/hawaii/32530958_s.jpg" alt=""></li>
+				<li><img src="section_slide/hawaii/666350_s.jpg" alt=""></li>
+				<li><img src="section_slide/hawaii/hawaii.jpg" alt=""></li>
+				<li><img src="section_slide/hawaii/sunset-beach-wallpaper_1024x768_28219.jpg" alt=""></li>
+			</ul>
+			<div class="link">
+				<p><a href="#">ハワイ旅行の詳細はこちら<br>&rarr;</a></p>
+			</div>
+		</div>
+</section><!--section_02-->
+<section class="section_03">
+		<h2>OrangeJamで新しい世界へ</h2>
+		<ul class="news">
+			<li><a href="#">2025.06.18<br>OrangeJam Travelから、毎月抽選でペア3組6名様に「美味しいアジアの旅」をプレゼント！</a></li>
+			<li><a href="#">2025.06.01<br>OrangeJam Travelリニューアルのお知らせ</a></li>
+		</ul>
+</section><!--section_03-->
+
+</div><!--content_box-->
+
+<p class="gotop"><img src="images/gotop.png"></p>
+
+<footer>
+	<ul>
+		<li><a href="#">プライバシーポリシー</a></li>
+		<li><a href="#">会社案内</a></li>
+		<li><a href="#">お問合わせ</a></li>
+	</ul>
+	<p>&copy;OrangeJam Travel. All Right Reserved. 2016</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/gotop.js"></script>
+<script src="js/menu_drop.js"></script>
+<script src="slide/jquery.bxslider.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.bxslider').bxSlider({
+				auto: true,
+				mode: 'fade',
+				infiniteLoop: true,
+				controls: false,
+				speed: 600,
+				pause: 3000,
+				touchEnabled: false,
+			});
+			$('.asia-slide').bxSlider({
+				auto: true,
+				mode: 'fade',
+				infiniteLoop: true,
+				controls: false,
+				speed: 600,
+				pause: 3000,
+				touchEnabled: false,
+			});
+			$('.hawaii-slide').bxSlider({
+				auto: true,
+				mode: 'fade',
+				infiniteLoop: true,
+				controls: false,
+				speed: 600,
+				pause: 3000,
+				touchEnabled: false,
+			});
+		});
+	</script>
+<script src="js/scrollreveal.min.js"></script>
+	<script>
+		window.sr = ScrollReveal({ reset: false });
+
+		//section_01
+		sr.reveal('.section_01 .bx-wrapper', { distance: "64px", origin: "bottom", duration: "1600", easing: "ease-in-out", });
+		sr.reveal('.section_01 .copy', { distance: "64px", origin: "bottom", duration: "1500", easing: "ease-in-out", delay: 250, useDelay: 'once', });
+
+		//section_02
+		sr.reveal('.section_02 .asia', { distance: "64px", origin: "bottom", duration: "1600", easing: "ease-in-out", });
+		sr.reveal('.section_02 .hawaii', { distance: "64px", origin: "bottom", duration: "1600", easing: "ease-in-out", delay: 180, useDelay: 'once', });
+		/*sr.reveal('.section_02 .link', { distance: "64px", origin: "bottom", duration: "1600", easing: "ease-in-out", delay: 300, useDelay: 'once', }); */
+
+		//section_03
+		sr.reveal('.section_03', { distance: "64px", origin: "bottom", duration: "1600", easing: "ease-in-out", });
+		sr.reveal('.section_03 h2', { distance: "64px", origin: "bottom", duration: "1500", easing: "ease-in-out", delay: 250, useDelay: 'once', });
+		sr.reveal('.section_03 ul li', { distance: "64px", origin: "bottom", duration: "1500", easing: "ease-in-out", delay: 300, useDelay: 'once', });
+	</script>
+<script type='text/javascript'>
+		//$(window).load
+		$(function(){
+		$('a','nav').mouseover(function(){
+			$('span','nav').animate({
+				'width': $(this).width(),
+				'left': $(this).position().left}
+			,'fast');
+		});
+		});
+
+</script>
+
+</body>
+</html>
